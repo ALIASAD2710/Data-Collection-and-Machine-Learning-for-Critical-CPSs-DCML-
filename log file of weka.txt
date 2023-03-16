@@ -1,0 +1,49 @@
+12:43:31: Weka Workbench
+12:43:31: (c) 1999-2020 The University of Waikato, Hamilton, New Zealand
+12:43:31: web: https://www.cs.waikato.ac.nz/~ml/weka/
+12:43:31: Started on Monday, 30 May 2022
+12:43:47: Base relation is now data for weka (3020 instances)
+12:44:04: Command: weka.filters.unsupervised.attribute.Remove -R 1
+12:44:04: Base relation is now data for weka-weka.filters.unsupervised.attribute.Remove-R1 (3020 instances)
+12:45:36: Base relation is now data for weka (3020 instances)
+12:45:43: Command: weka.filters.unsupervised.attribute.Remove -R 1
+12:45:43: Base relation is now data for weka-weka.filters.unsupervised.attribute.Remove-R1 (3020 instances)
+12:46:30: Started weka.classifiers.bayes.BayesNet
+12:46:30: Command: weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+12:46:30: Finished weka.classifiers.bayes.BayesNet
+12:46:39: Started weka.classifiers.bayes.NaiveBayes
+12:46:39: Command: weka.classifiers.bayes.NaiveBayes 
+12:46:39: Finished weka.classifiers.bayes.NaiveBayes
+12:46:56: Started weka.classifiers.bayes.NaiveBayesMultinomial
+12:46:56: Command: weka.classifiers.bayes.NaiveBayesMultinomial 
+12:46:56: Finished weka.classifiers.bayes.NaiveBayesMultinomial
+12:47:00: Started weka.classifiers.bayes.NaiveBayesMultinomialText
+12:47:00: Command: weka.classifiers.bayes.NaiveBayesMultinomialText -P 0 -M 3.0 -norm 1.0 -lnorm 2.0 -stopwords-handler weka.core.stopwords.Null -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.NullStemmer
+12:47:01: Finished weka.classifiers.bayes.NaiveBayesMultinomialText
+12:47:22: Started weka.classifiers.functions.SMO
+12:47:22: Command: weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+12:47:24: Finished weka.classifiers.functions.SMO
+12:47:46: Started weka.classifiers.functions.SimpleLogistic
+12:47:46: Command: weka.classifiers.functions.SimpleLogistic -I 0 -M 500 -H 50 -W 0.0
+12:47:49: Finished weka.classifiers.functions.SimpleLogistic
+12:47:58: Started weka.classifiers.functions.Logistic
+12:47:58: Command: weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+12:47:59: Finished weka.classifiers.functions.Logistic
+12:48:06: Started weka.classifiers.lazy.KStar
+12:48:06: Command: weka.classifiers.lazy.KStar -B 20 -M a
+12:48:17: Finished weka.classifiers.lazy.KStar
+12:48:39: Started weka.classifiers.trees.J48
+12:48:39: Command: weka.classifiers.trees.J48 -C 0.25 -M 2
+12:48:40: Finished weka.classifiers.trees.J48
+12:48:45: Started weka.classifiers.trees.RandomForest
+12:48:45: Command: weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+12:48:47: Finished weka.classifiers.trees.RandomForest
+12:48:56: Started weka.classifiers.trees.RandomTree
+12:48:56: Command: weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1
+12:48:56: Finished weka.classifiers.trees.RandomTree
+12:49:09: Started weka.classifiers.rules.ZeroR
+12:49:09: Command: weka.classifiers.rules.ZeroR 
+12:49:09: Finished weka.classifiers.rules.ZeroR
+12:49:40: Started weka.classifiers.trees.REPTree
+12:49:40: Command: weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0
+12:49:40: Finished weka.classifiers.trees.REPTree
